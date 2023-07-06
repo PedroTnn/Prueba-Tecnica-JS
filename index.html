@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="jumbotron text-center">
+    <h1 class="display-4">Bienvenido a nuestra Landing Page</h1>
+    <p class="lead">Aquí puedes buscar usuarios</p>
+  </header>
+
+  <section class="container">
+    <input id="search-input" class="form-control mb-4" type="text" placeholder="Buscar por nombre o email...">
+
+    <div id="user-table" class="table-responsive">
+      <!-- La tabla de usuarios se insertará aquí -->
+    </div>
+  </section>
+
+  <script src="/JS/api.js"></script>
+  <script src="/JS/tabla.js"></script>
+  <script src="/JS/busqueda.js"></script>
+  <script src="/JS/index.js"></script>
+</body>
+
+</html>
