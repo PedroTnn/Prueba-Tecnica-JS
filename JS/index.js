@@ -8,5 +8,12 @@ document.addEventListener('DOMContentLoaded', async () => {
   document.getElementById('user-table').appendChild(tabla);
 
   const inputBusqueda = document.getElementById('search-input');
+  const searchButton = document.getElementById('search-button');
+
+  searchButton.addEventListener('click', () => {
+    inputBusqueda.classList.toggle('d-none');
+  });
+
   inputBusqueda.addEventListener('input', () => buscar(tabla, inputBusqueda.value));
 });
+

@@ -1,12 +1,17 @@
-body {
-    font-family: 'Arial', sans-serif;
-  }
-  
-  header {
-    margin-bottom: 30px;
-  }
-  
-  #search-input {
-    margin-top: 20px;
-  }
-  
+body, .jumbotron {
+  font-family: 'Arial', sans-serif;
+  color: white;
+}
+
+#header-image {
+  margin-bottom: 30px;
+}
+
+header {
+  margin-bottom: 30px;
+  background-color: #000;
+}
+
+#search-input {
+  margin-top: 20px;
+}
